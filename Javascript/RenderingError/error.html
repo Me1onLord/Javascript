@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        button {
+            
+                display: inline-block;
+                outline: 0;
+                cursor: pointer;
+                border: 2px solid #000;
+                border-radius: 3px;
+                color: #000;
+                background: #fff;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 28px;
+                padding: 12px 20px;
+                text-align:center;
+                transition-duration: .15s;
+                transition-property: all;
+                transition-timing-function: cubic-bezier(.4,0,.2,1)
+                  
+        }
+        #error {
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <img src="data:image/jpeg;base64,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" alt="">
+    <p>Nike Shoe</p>
+    <button onclick="purchase()" >Purchase - it is only $50</button>
+    <p id="error"></p>
+    <script src="error.js"></script>
+</body>
+</html>

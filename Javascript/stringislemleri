@@ -1,0 +1,30 @@
+
+let email = "irfan.yeniceri@gmail.com"
+let firstName = "irfan"
+let secondName = "İBRAHİM"
+let lastName = "yeniçeri"
+
+// Karakter sayısını bulmak için böyle yapıyoruz.
+console.log(email.length)
+
+// Büyük harf küçük harf için yapılması gereken
+
+console.log(firstName.toUpperCase())
+console.log(secondName.toLowerCase())
+
+// Search
+
+console.log(email.search("@"))
+
+// slice
+
+console.log(email.slice(14))
+
+// replace
+
+let nickName = firstName.replace("irfan", "MelonLord")
+console.log(nickName)
+
+// includes
+
+console.log(email.includes("@"))
